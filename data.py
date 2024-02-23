@@ -216,3 +216,4 @@ def get_ingredients():
     ingredient_df = pd.DataFrame(total_ingredients.items(), columns=['Ingredient', 'Total Quantity'])
 
     return ingredient_df
+

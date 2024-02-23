@@ -6,3 +6,4 @@ if __name__ == "__main__":
     meals = regenerate_meal_plan()[0]
     ingredients = regenerate_meal_plan()[1]
     display_meal_plan_info(meals, ingredients)
+

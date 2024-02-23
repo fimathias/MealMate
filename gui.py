@@ -3,7 +3,6 @@ from tkinter.scrolledtext import ScrolledText
 from tkinter import Button
 import pandas as pd
 
-
 def display_meal_plan_info(meal_plan_df, ingredient_df):
     # Set pandas display options to show all columns and rows
     pd.set_option('display.max_columns', None)
